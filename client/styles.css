@@ -2,7 +2,26 @@
 
 /* Note: an asteroid image is included in this repo.
 Feel free to use it if you like. */
+body{
+  margin: 20px auto;
+  font-family:helvetica;
+  positiont: relative;
 
-body {
-  background-color: grey;
 }
+
+svg {
+  height: 1000px;
+  width: 1000px;
+  margin: 0 20px;
+  background-image: url("http://www.esa.int/var/esa/storage/images/esa_multimedia/images/2014/02/searching_for_exoplanetary_systems/14282306-1-eng-GB/Searching_for_exoplanetary_systems.jpg");
+  background-color: gray;
+}
+
+
+.player {
+  fill: yellow;
+  border: 1px solid black;
+  background: url("http://www.nasa.gov/centers/goddard/images/content/638831main_globe_east_2048.jpg");
+}
+
+
